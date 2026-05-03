@@ -1,15 +1,14 @@
 # Change these first
 owner: Wandashabba
-repo: vitrafruits-status # Make sure this matches the exact name of the GitHub repository you created
+repo: vitrafruits-status 
 
 sites:
   - name: VitraFruits
-    url: https://vitrafruit.co.za
+    url: https://www.vitrafruits.co.za
 
 status-website:
-  # We use baseUrl instead of cname since you don't have a custom status domain yet
   baseUrl: /vitrafruits-status
-  logoUrl: https://vitrafruit.com/images/logo.jpg
+  logoUrl: https://www.vitrafruits.co.za/images/logo.jpg
   name: VitraFruits Status
   introTitle: "**VitraFruits** System Status."
   introMessage: "Real-time monitoring of the VitraFruits website. This page is updated automatically every 5 minutes."
