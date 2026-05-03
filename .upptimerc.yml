@@ -4,7 +4,7 @@ repo: vitrafruits-status # Make sure this matches the exact name of the GitHub r
 
 sites:
   - name: VitraFruits
-    url: https://vitrafruit.com
+    url: https://vitrafruit.co.za
 
 status-website:
   # We use baseUrl instead of cname since you don't have a custom status domain yet
