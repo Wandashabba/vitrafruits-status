@@ -19,3 +19,7 @@ status-website:
       href: /
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
+
+# This enables the email alerts
+notifications:
+  - type: mail
