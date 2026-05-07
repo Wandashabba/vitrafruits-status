@@ -22,10 +22,6 @@ on:
     types: [static_site]
   workflow_dispatch:
 
-permissions:
-  contents: write
-  workflows: write
-
 jobs:
   release:
     name: Build and deploy site
