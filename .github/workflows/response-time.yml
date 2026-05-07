@@ -21,6 +21,11 @@ on:
   repository_dispatch:
     types: [response_time]
   workflow_dispatch:
+
+permissions:
+  contents: write
+  workflows: write
+
 jobs:
   release:
     name: Check status
